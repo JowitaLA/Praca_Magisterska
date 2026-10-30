@@ -9,7 +9,7 @@ metod uwierzytelniania.
 
 ## Wymagania
 
-- Windows
+- System operacyjny Windows 10 lub 11
 - Python 3.12
 - Kamera internetowa
 
