@@ -1,0 +1,32 @@
+time,user,method,attempts,security_level
+8.20 s,p2,TOTP,0,n/d
+31.13 s,p2,face,0,standard
+26.80 s,p2,face,1,standard
+7.63 s,p2,TOTP,0,n/d
+9.23 s,p2,TOTP,0,n/d
+61.27 s,p2,face,1,standard
+39.99 s,p2,face,0,standard
+41.25 s,p2,face,2,standard
+17.46 s,p2,face,2,standard
+88.00 s,p2,face,7,standard
+41.55 s,p2,face,4,standard
+9.35 s,p2,TOTP,0,n/d
+12.15 s,p2,TOTP,0,n/d
+38.59 s,p2,TOTP,0,n/d
+39.92 s,p2,face,6,standard
+10.87 s,p2,TOTP,0,n/d
+60.98 s,p2,TOTP,6,n/d
+11.84 s,p2,face,1,standard
+11.26 s,p2,TOTP,0,n/d
+85.52 s,p2,face,13,standard
+20.15 s,p2,TOTP,0,n/d
+15.98 s,p2,TOTP,0,n/d
+11.83 s,p2,face,1,standard
+22.02 s,p2,TOTP,0,n/d
+11.87 s,p2,face,1,standard
+31.59 s,p2,face,0,standard
+8.69 s,p2,TOTP,0,n/d
+24.83 s,p2,TOTP,0,n/d
+39.93 s,p2,face,6,standard
+13.08 s,p2,TOTP,0,n/d
+

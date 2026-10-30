@@ -1,0 +1,33 @@
+Osoby: ['P1', 'P2', 'P3', 'P4', 'P5'] | liczba prob: 150
+method  TOTP  face
+osoba             
+P1        15    15
+P2        15    15
+P3        15    15
+P4        15    15
+P5        15    15
+
+== Statystyki opisowe ==
+TOTP: n=75 srednia=16.95 sr.geom=14.43 odch.std=11.44 mediana=13.11 Q1-Q3=9.59-19.91 min/max=6.46/60.98 | proby z nieudana=9 (12.0%) suma nieudanych=28 srednia na probe=0.37 | >=3 nieudane=4 max=8
+   Shapiro (surowe czasy): p=8.2e-10
+face: n=75 srednia=23.42 sr.geom=14.67 odch.std=32.42 mediana=12.09 Q1-Q3=8.04-28.93 min/max=2.24/251.57 | proby z nieudana=43 (57.3%) suma nieudanych=111 srednia na probe=1.48 | >=3 nieudane=12 max=13
+   Shapiro (surowe czasy): p=3.6e-14
+
+== Testy na poziomie osob (logarytmy czasu) ==
+Shapiro-Wilk (roznice): p=0.808
+t-Student dla prob zaleznych: t(4)=0.08, p=0.943
+Iloraz sr. geom. (twarz/OTP)=1.02, 95% PU: 0.55-1.87
+Wilcoxon (czas): W=7, p=1.000
+Najmniejsze osiagalne p testu Wilcoxona dla N=5: 0.0625
+Wilcoxon (odsetek prob z nieudana proba): W=0, p=0.0625
+
+== Tabela per osoba ==
+       med_twarz  med_OTP  iloraz_sr_geom  p_Holm  nieudane_twarz_%  nieudane_OTP_%
+osoba                                                                              
+P1          8.80    10.75            0.92   1.000              73.3             0.0
+P2         39.92    12.15            2.16   0.014              80.0             6.7
+P3         12.34    20.25            0.80   1.000              60.0            33.3
+P4          9.14    15.67            0.59   0.112              26.7             6.7
+P5         18.05    13.62            1.18   1.000              46.7            13.3
+
+Uwaga: p_Holm to test U Manna-Whitneya w obrebie osoby z korekta Holma.
